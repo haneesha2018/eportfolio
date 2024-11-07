@@ -1,6 +1,11 @@
 import type { Metadata } from "next";
+import { Inter } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
+import { ThemeProvider } from "@/components/ui/theme-provider";
+import { Analytics } from "@vercel/analytics/react";
+
+const inter = Inter({ subsets: ["latin"] });
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -24,11 +29,17 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
+    <html lang="en" className="scroll-smooth">
+      <body className={inter.className}>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="dark"
+          enableSystem
+          disableTransitionOnChange
+        >
+          {children}
+          <Analytics />
+        </ThemeProvider>
       </body>
     </html>
   );
