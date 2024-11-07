@@ -1,7 +1,7 @@
 "use client";
 import { Button } from "@/components/ui/button";
 import { Github, Linkedin, Mail} from "lucide-react";
-import { ModeToggle } from "./ui/toggle-mode";
+import { ModeToggle } from "@/components/ui/toggle-mode";
 import useActiveSection from "@/hooks/useActiveSection";
 import { FaGoodreadsG, FaGithub, FaLinkedin, FaEnvelope, FaGoodreads } from "react-icons/fa"; // FontAwesome Goodreads icon
 import { AiFillBook } from "react-icons/ai";
