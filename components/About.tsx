@@ -17,7 +17,8 @@ export default function About() {
       </div>
       <div className="flex flex-col gap-4">
         <p className="text-start text-muted-foreground lg:px-6">
-          Hello! I’m <BoldT>Haneesha Dushara</BoldT>, a Computer Science major at the University of Cincinnati. 
+          Hello! I’m <BoldT>Haneesha Dushara</BoldT>, a Computer Science major at the University of Cincinnati.
+          https://ucinternationalstudentblog.weebly.com/spotlights1.html 
           My journey to choosing this path was shaped by a deep passion for learning, self-improvement, and a dedication to achieving academic excellence.
         </p>
         <p className="text-start text-muted-foreground lg:px-6">
