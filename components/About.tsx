@@ -17,20 +17,12 @@ export default function About() {
       </div>
       <div className="flex flex-col gap-4">
         <p className="text-start text-muted-foreground lg:px-6">
-        Back in college, I discovered my passion for <BoldT>data analytics</BoldT> through 
-        various projects. This experience allowed me to process large-scale biological 
-        data and develop <BoldT>business intelligence solutions</BoldT> for a global corporation.
-        </p>
-        <p className="text-start  text-muted-foreground lg:px-6">
-        Currently, I leverage data for insights and decision-making by 
-        analyzing trends and developing dashboards with 
-        <BoldT> Power BI,</BoldT> using <BoldT>SQL</BoldT> and <BoldT>Python</BoldT> to 
-        enhance business performance.
+          Hello! I’m <BoldT>Haneesha Dushara</BoldT>, a Computer Science major at the University of Cincinnati. 
+          My journey to choosing this path was shaped by a deep passion for learning, self-improvement, and a dedication to achieving academic excellence.
         </p>
         <p className="text-start text-muted-foreground lg:px-6">
-        When I'm not diving into data, I enjoy exploring Colorado's 
-        mountains, running, and hiking. I also love reading and 
-        learning, continually striving for personal and professional growth.
+          Throughout my time here, I’ve been actively involved in various roles, such as Vice President of Events for the College of Engineering & Applied Science Tribunal and Sponsorship Lead for ACM@UC’s hackathon.
+          I've also gained professional experience through internships with Emerson, SHP Leading Design, and Prodigy, honing my skills in software development and data analytics.
         </p>
       </div>
     </section>

@@ -11,79 +11,58 @@ import { Badge } from "@/components/ui/badge";
 
 const jobPositions = [
   {
-    timeline: "June 2024 — Present",
-    currentPosition: "SAP Business Analyst",
-    place: "Nutrien",
+    timeline: "Jan 2023 — July 2023",
+    previousTimeline: [""],
+    currentPosition: "Software Engineer Intern",
+    place: "Prodigy",
     previousPositions: [""],
     description:
-      "I analyze data to support business decisions and improve processes. Using Power BI, Excel, and SQL, I create dashboards and provide actionable insights that drive efficiency and optimize operations. I collaborate with teams to translate complex data into clear recommendations.",
+      "Engineered an AI chatbot using Retrieval-Augmented Generative (RAG) model, leveraging TensorFlow.js, React Js, Pinecone DB, and Llama2 via LangChain, resulting in 65% improved client matching accuracy, $2M+ in project leads. Innovated interactive client data map to visualize 500+ qualified leads with enhanced UI/UX using React Js and Python Django, boosting data-driven decision-making by 25%. Implemented AWS S3 and EC2 instances, cutting infrastructure costs by 15% while improving scalability and accessibility.",
     skills: [
-      "Data Analysis",
-      "Dashboard Development",
-      "Excel Expertise",
-      "SQL Querying",
-      "Crtical Thinking",
-      "Cross-functional Collaboration",
+      "React.js",
+      "TensorFlow.js",
+      "LangChain",
+      "Python Django",
+      "AWS",
+      "UI/UX",
+      "RAG Development"
     ],
   },
   {
-    timeline: "Aug 2023 — March 2024",
-    currentPosition: "Research Assistant (Data Analytics)",
-    place: "University of Cincinnati, College of Medicine",
+    timeline: "Jan 2022 — May 2022",
+    previousTimeline: [""],
+    currentPosition: "Software Engineer Intern",
+    place: "SHP Leading Design",
     previousPositions: [""],
     description:
-      "During my internship, I processed and analyzed Traumatic Brain Injury (TBI) patient data using Python and SQL. This experience helped me extract insights from complex datasets and enhance my data analysis skills.",
+      "Developed 5+ custom plugins using C# .NET, WPF UI/UX with MVVM principles for Autodesk Revit, accelerating project completion by 25%. Automated HVAC diffuser placement in Revit, reducing time from a week to a day, saving $10,000/project. Devised a script to automate statewide electrical wiring calculations, reducing manual calculation time by 80%. Integrated QA/QC checks across the architectural team, achieving 95% accuracy in detecting 100+ model errors.",
     skills: [
-      "Statistical Analysis",
-      "Programming (Python/SQL)",
-      "ETL Processes",
-      "Tableau",
-      "Team collaboration",
+      "C# .NET",
+      "WPF",
+      "MVVM",
+      "Automation",
+      "QA/QC",
+      "Revit Development"
     ],
   },
   {
-    timeline: "May 2023 — August 2023",
-    currentPosition: "SAP Technical Intern",
-    place: "Delaware North America",
+    timeline: "May 2021 — Aug 2021",
+    previousTimeline: ["Aug 2020 — Dec 2020"],
+    currentPosition: "Software Engineer Intern",
+    place: "Emerson",
     previousPositions: [""],
     description:
-      "I analyzed SAP datasets using Excel and SQL, enhancing data workflows. I built dashboards in Power BI for improved metrics visibility, conducted A/B testing to evaluate data strategies, and collaborated with teams to refine data processes.",
+      "Supported migration of 500,000+ records from Salesforce to in-house CRM 360 Insights using Agile Methodologies. Designed & Developed 15+ key features using C#.NET MVC, Entity Framework, Vue Js, Web API, and SQL Server, improving efficiency by 25%. Collaborated with EMEA stakeholders to gather 50+ requirements, optimizing CRM features for 14,000+ employees. Utilized IntelliJ, GitHub, Azure DevOps, and TeamCity for CI/CD, reducing deployment time by 15%.",
     skills: [
-      "Power BI",
-      "A/B Testing",
-      "SQL Profiency",
-      "Requirements gathering",
+      "C# .NET MVC",
+      "Vue.js",
+      "SQL Server",
+      "Azure DevOps",
+      "Agile",
+      "CI/CD",
+      "CRM Development"
     ],
-  },
-  {
-    timeline: "May 2021 — April 2023",
-    currentPosition: "Research Assistant (Data Analytics)",
-    place: "University of Cincinnati, College of Medicine",
-    previousPositions: [""],
-    description:
-      "I developed a Bash-based pipeline to streamline data processing. I analyzed gene datasets with R and SQL to uncover patterns and enhance insights. I also implemented quality control measures and collaborated with teams to interpret results and support projects.",
-    skills: [
-      "Python",
-      "R",
-      "PostgreSQL",
-      "Bash",
-      "ETL",
-    ],
-  },
-  {
-    timeline: "May 2020 — Aug 2020",
-    currentPosition: "Data Analyst Apprenticeship",
-    place: "Accenture",
-    previousPositions: [""],
-    description:
-      "Analyzed enrollment trends during COVID-19 using Python and SQL, designed a database schema for tracking, and created visualizations and Tableau dashboards to highlight the pandemic's impact on education.",
-    skills: [
-      "SQL",
-      "Database Design",
-      "Problem-Solving",
-      "Trend analysis"
-    ],
-  },
+  }
 ];
 
 export default function ExpCard() {
@@ -103,6 +82,8 @@ export default function ExpCard() {
             <CardHeader className="h-full w-full p-0">
               <CardTitle className="text-sm text-slate-400 whitespace-nowrap">
                 {job.timeline}
+                <br />
+                {job.previousTimeline}
               </CardTitle>
             </CardHeader>
             <CardContent className="flex flex-col p-0">

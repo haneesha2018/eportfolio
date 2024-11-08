@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 // import { Github, Linkedin, Mail} from "lucide-react";
 // import { ModeToggle } from "@/components/ui/toggle-mode";
 import useActiveSection from "@/hooks/useActiveSection";
-import { FaGithub, FaLinkedin, FaEnvelope, FaGoodreads } from "react-icons/fa"; // FontAwesome Goodreads icon
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa"; // FontAwesome Goodreads icon
 // import { AiFillBook } from "react-icons/ai";
 
 type NavItem = {
@@ -47,10 +47,10 @@ export default function Nav() {
     <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24 flex flex-col lg:gap-4">
       <div className="flex flex-col gap-4 lg:pr-24 mt-6 lg:mt-0">
         <h1 className="text-[42px] font-bold lg:text-start">
-          Roshni Khatri
+          Haneesha Dushara
         </h1>
         <h2 className="text-xl lg:text-start">
-          Data-Driven Problem Solver
+          Software Engineer
         </h2>
         <p className="text-base lg:text-start text-muted-foreground">
           I deliver actionable insights that enhance <br></br>
@@ -77,7 +77,7 @@ export default function Nav() {
       <ul className="flex flex-row gap-6 mt-6 lg:mt-0">
         <Button variant="outline" size="icon">
           <a
-          href="mailto:khatrirr@outlook.com"
+          href="mailto:haneesha2018@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
           >
@@ -86,7 +86,7 @@ export default function Nav() {
         </Button>
         <Button variant="outline" size="icon">
           <a
-            href="https://github.com/roshnik1"
+            href="https://github.com/haneesha2018"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -95,14 +95,14 @@ export default function Nav() {
         </Button>
         <Button variant="outline" size="icon">
           <a
-            href="https://linkedin.com/in/roshnik1/"
+            href="https://linkedin.com/in/haneesha-dushara/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaLinkedin className="h-[1.2rem] w-[1.2rem]" />
           </a>
         </Button>
-        <Button variant="outline" size="icon">
+        {/* <Button variant="outline" size="icon">
           <a
           href="https://www.goodreads.com/user/show/79824790-roshni" 
           target="_blank"
@@ -110,7 +110,7 @@ export default function Nav() {
           >
             <FaGoodreads className="h-[1.2rem] w-[1.2rem]" />
           </a>
-        </Button>
+        </Button> */}
         {/* <ModeToggle /> */}
       </ul>
     </header>

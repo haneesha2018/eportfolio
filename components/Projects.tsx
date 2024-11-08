@@ -13,57 +13,31 @@ import { MoveRight } from "lucide-react";
 
 const jobProjects = [
   {
+    imagePath: "/eventready.png",
+    title: "EventReady - Webapp for Student Event Planners",
+    description:
+      "EventReady is a web application designed to assist new event planners in student organizations. Built using React JS, Django, Material UI, and Google Firebase, this tool increases event planning efficiency by 40% and reduces planning time by 35%.",
+    skills: [
+      "React JS",
+      "Django",
+      "Material UI",
+      "SQLite",
+      "Google Firebase",
+    ],
+    link: "https://github.com/haneesha2018/EventReady",
+  },
+  {
     imagePath: "/krodash.png",
     title: "KroDash - Retail Data Dashboard Development",
     description:
-      "Krodash is a Kroger retail data dashboard that provides timely insights into sales performance, regional levels, and product behavior, enabling data-driven decision-making for retail operations.",
+      "KroDash is a Flask-based retail data dashboard deployed on Heroku. It uses Microsoft Azure PostgreSQL and SQLAlchemy to streamline data processing, enhancing Kroger's data analysis for better decision-making.",
     skills: [
-      "SQLite",
-      "Flask",
-      "Bootstrap",
-      "PostgreSQL",
-      "Azure",
+      "Python",
+      "HTML/CSS/JavaScript",
       "Heroku",
+      "Azure PostgreSQL",
     ],
-    link: "https://github.com/roshnik1/KroDash",
-  },
-  {
-    imagePath: "/code_assistant.png",
-    title: "AI-Driven Python Coding Assistant",
-    description:
-      "This is an OpenAI-powered platform for Python 101 students at the University of Cincinnati to provide assignment feedback and assist with coding challenges, enhancing their learning experience.",
-    skills: [
-      "Python",
-      "Artificial Intelligence",
-      "HTML/CSS/Javascript",
-      "Vercel",
-      "Firebase"
-    ],
-    link: "https://github.com/roshnik1/CodeInCStructor.ai",
-  },
-  {
-    imagePath: "/snl_cast.png",
-    title: "SNL Cast Analytics",
-    description:
-      "This project analyzes cast tenure and gender representation to highlight diversity trends within SNL's history. It provides insights into the evolving landscape of representation in television.",
-    skills: [
-      "Tableau",
-      "Python",
-      "Data Analysis"
-    ],
-    link: "https://github.com/roshnik1/snl-analytics",
-  },
-  {
-    imagePath: "/SwiftSense.png",
-    title: "SwiftSense",
-    description:
-      "This exploratory ML project analyzes Taylor Swift's lyrics to uncover meanings and provide insights through natural language processing techniques.",
-    skills: [
-      "Machine Learning",
-      "Natural Language Processing",
-      "OpenAI"
-    ],
-    link: "https://github.com/roshnik1/SwiftSense",
+    link: "https://github.com/haneesha2018/KroDash",
   },
 ];
 
@@ -115,7 +89,7 @@ export default function Projects() {
       </>
       <div className="lg:px-12 mt-12">
         <a
-          href="https://github.com/roshnik1"
+          href="https://github.com/haneesha2018"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center font-medium leading-tight text-foreground group"
