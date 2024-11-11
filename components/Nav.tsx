@@ -16,6 +16,7 @@ export default function Nav() {
     "about",
     "experience",
     "projects",
+    "leadership",
     "contact",
   ]);
 
@@ -23,6 +24,7 @@ export default function Nav() {
     { name: "About", href: "#about" },
     { name: "Experience", href: "#experience" },
     { name: "Projects", href: "#projects" },
+    { name: "Leadership", href: "#leadership" },
     { name: "Contact", href: "#contact" },
   ];
 
@@ -56,6 +58,13 @@ export default function Nav() {
           I deliver actionable insights that enhance <br></br>
           decision-making and drive results.
         </p>
+        <div className=''>
+            <a href="/Haneesha_Dushara_Full_Time_Resume.pdf" target="_blank" rel="noopener noreferrer">
+            <button className="inline-flex h-12 </a>animate-shimmer items-center justify-center rounded-md border borde</a>r-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
+                Preview Resume
+            </button>
+            </a>
+          </div>
       </div>
       <nav className="lg:flex hidden">
         <ul className="flex flex-col w-max text-start gap-6 uppercase text-xs font-medium">

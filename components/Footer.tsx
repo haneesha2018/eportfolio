@@ -27,7 +27,7 @@ export default function Footer() {
           </a>
           , deployed with{" "}
           <a className="text-foreground" href="https://vercel.com/">
-            Vercel
+            GitHub Pages
           </a>
           .
         </p>
