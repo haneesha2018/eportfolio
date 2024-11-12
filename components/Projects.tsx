@@ -24,7 +24,7 @@ const jobProjects = [
       "SQLite",
       "Google Firebase",
     ],
-    link: "https://github.com/haneesha2018/EventReady",
+    link: "https://github.com/haneesha2018/Capstone-Project",
   },
   {
     imagePath: "/krodash.png",
