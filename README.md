@@ -35,5 +35,3 @@ Before running the project, ensure you have the following installed on your mach
    ```
    Open your browser and go to ```http://localhost:3000```
 
-## Contributing
-Feel free to fork the repository and submit a pull request. You can also use this portfolio as a template for your own!
