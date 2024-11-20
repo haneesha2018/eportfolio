@@ -65,7 +65,6 @@ export default function Nav() {
           decision-making and drive results. */}
         </p>
         <div className=''>
-        
             {/* <a href={`${basePath}/Haneesha_Dushara_Full_Time_Resume.pdf`} target="_blank" rel="noopener noreferrer"> */}
             <a href={`https://haneesha2018.github.io/eportfolio/Haneesha_Dushara_Full_Time_Resume.pdf`} target="_blank" rel="noopener noreferrer">
             <button className="inline-flex h-12 </a>animate-shimmer items-center justify-center rounded-md border borde</a>r-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
