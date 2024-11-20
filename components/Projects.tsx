@@ -13,7 +13,7 @@ import { MoveRight } from "lucide-react";
 
 const jobProjects = [
   {
-    imagePath: "/eventready.png",
+    imagePath: "https://haneesha2018.github.io/eportfolio/eventready.png",
     title: "EventReady - Webapp for Student Event Planners",
     description:
       "EventReady is a web application designed to assist new event planners in student organizations. Built using React JS, Django, Material UI, and Google Firebase, this tool increases event planning efficiency by 40% and reduces planning time by 35%.",
@@ -27,7 +27,7 @@ const jobProjects = [
     link: "https://github.com/haneesha2018/Capstone-Project",
   },
   {
-    imagePath: "/krodash.png",
+    imagePath: "https://haneesha2018.github.io/eportfolio/krodash.png",
     title: "KroDash - Retail Data Dashboard Development",
     description:
       "KroDash is a Flask-based retail data dashboard deployed on Heroku. It uses Microsoft Azure PostgreSQL and SQLAlchemy to streamline data processing, enhancing Kroger's data analysis for better decision-making.",

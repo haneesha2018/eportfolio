@@ -6,6 +6,7 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true, // Optional: Disable image optimization for static export
   },
+  basePath: '/eportfolio', 
 };
 
 export default nextConfig;
