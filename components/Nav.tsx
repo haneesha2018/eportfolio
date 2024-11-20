@@ -14,7 +14,7 @@ type NavItem = {
 };
 
 export default function Nav() {
-  const basePath =  "https://github.com/haneesha2018/eportfolio/tree/master/public"; 
+  // const basePath =  "https://github.com/haneesha2018/eportfolio/tree/master/public"; 
 
   const activeSection = useActiveSection([
     "about",
