@@ -19,7 +19,7 @@ const leadershipPositions = [
     currentPosition: "Sponsorship Lead",
     place: "Hackathon Revolution UC by ACM@UC, University of Cincinnati",
     description:
-      "Raised $25,000+ for UC’s Biggest Student-Led Hackathon, Revolution UC, engaging 300+ students from Midwest Universities. Expanded hackathon scale by 20% each year by leading and supporting the team in securing sponsorships and corporate partnerships.",
+      "Raised $25,000+ for UC’s Biggest Student-Led Hackathon, Revolution UC, engaging 700+ students from Midwest Universities. Expanded hackathon scale by 20% each year by leading and supporting the team in securing sponsorships and corporate partnerships.",
     skills: ["Fundraising", "Event Management", "Team Leadership"],
     imagepath: "https://haneesha2018.github.io/eportfolio/SponsorshipLead.jpg",
     link: "https://www.linkedin.com/posts/revolutionuc_hackathon-revolutionuc-activity-7167258201913057280-fNPL?utm_source=share&utm_medium=member_desktop"
