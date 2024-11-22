@@ -5,10 +5,10 @@ export default function Footer() {
     <section>
       <div className="flex flex-col gap-4 lg:px-6 mt-16">
         <p className="text-xs text-start text-muted-foreground">
-          Based on{" "}
+          {/* Based on{" "}
           <a className="text-foreground" href="https://brittanychiang.com">
             Brittany Chiang&#39;s website.
-          </a>{" "}
+          </a>{" "} */}
            Coded in{" "}
           <a className="text-foreground" href="https://code.visualstudio.com/">
             Visual Studio Code.
@@ -25,10 +25,10 @@ export default function Footer() {
           <a className="text-foreground" href="https://ui.shadcn.com/">
             Shadcn/ui
           </a>
-          , deployed with{" "}
+          {/* , deployed with{" "}
           <a className="text-foreground" href="https://vercel.com/">
             GitHub Pages
-          </a>
+          </a> */}
           .
         </p>
       </div>

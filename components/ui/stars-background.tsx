@@ -138,7 +138,7 @@ export const StarsBackground: React.FC<StarBackgroundProps> = ({
 return (
     <canvas
         ref={canvasRef}
-        className={cn("fixed top-0 left-0 w-screen h-screen -z-10", className)}
+        className={cn("fixed top-0 left-0 w-screen h-screen -z-10 pointer-events-none", className)}
     />
 );
 };
