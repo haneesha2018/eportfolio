@@ -16,7 +16,6 @@ export default function About() {
         </h2>
       </div>
       <div className="flex flex-col gap-4">
-      {/* https://ucinternationalstudentblog.weebly.com/spotlights1.html  */}
       <p className="text-start text-muted-foreground lg:px-6">
         Hello! I'm <BoldT>Haneesha Dushara</BoldT>, a recent Computer Science graduate from the University of Cincinnati. With a 3.9 GPA and over 1.5 years of professional internship experience, I've dedicated myself to continuous learning and academic excellence.
       </p>
