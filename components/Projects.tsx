@@ -24,7 +24,7 @@ const jobProjects = [
     "OpenAI API",
     "FAISS Vector Database",
     ],
-    link: "https://github.com/haneesha2018/Personal-Bot",
+    link: "https://github.com/haneesha2018/personal-bot",
     },
   {
     imagePath: "https://haneesha2018.github.io/eportfolio/eventready.png",
