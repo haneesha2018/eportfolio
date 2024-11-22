@@ -4,8 +4,8 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/ui/theme-provider";
 import { Analytics } from "@vercel/analytics/react";
-// import { ShootingStars } from "@/components/ui/shooting-stars";
-// import { StarsBackground } from "@/components/ui/stars-background";
+import { ShootingStars } from "@/components/ui/shooting-stars";
+import { StarsBackground } from "@/components/ui/stars-background";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -42,8 +42,8 @@ export default function RootLayout({
           {children}
           <Analytics />
         </ThemeProvider>
-        {/* <ShootingStars /> */}
-        {/* <StarsBackground /> */}
+        <ShootingStars />
+        <StarsBackground />
       </body>
     </html>
   );
