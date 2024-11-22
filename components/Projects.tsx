@@ -13,7 +13,7 @@ import { MoveRight } from "lucide-react";
 
 const jobProjects = [
   {
-    imagePath: "https://haneesha2018.github.io/eportfolio/personal-bot.png",
+    imagePath: "https://haneesha2018.github.io/eportfolio/ChatDoc.png",
     title: "Personal Bot - Chat with Your Documents",
     description:
     "A GPT-powered chatbot application that combines standard ChatGPT capabilities with advanced features for document interaction. Built using Streamlit, LangChain, and OpenAI, this tool enables users to upload large PDF/TXT documents and chat with their content, enhancing information retrieval and analysis.",
@@ -24,7 +24,7 @@ const jobProjects = [
     "OpenAI API",
     "FAISS Vector Database",
     ],
-    link: "https://github.com/haneesha2018/personal-bot",
+    link: "https://github.com/haneesha2018/personal_bot",
     },
   {
     imagePath: "https://haneesha2018.github.io/eportfolio/eventready.png",
