@@ -16,8 +16,11 @@ const jobPositions = [
     currentPosition: "Software Engineer Intern",
     place: "Prodigy",
     previousPositions: [""],
-    description:
-      "Engineered an AI chatbot using Retrieval-Augmented Generative (RAG) model, leveraging TensorFlow.js, React Js, Pinecone DB, and Llama2 via LangChain, resulting in 65% improved client matching accuracy, $2M+ in project leads. Innovated interactive client data map to visualize 500+ qualified leads with enhanced UI/UX using React Js and Python Django, boosting data-driven decision-making by 25%. Implemented AWS S3 and EC2 instances, cutting infrastructure costs by 15% while improving scalability and accessibility.",
+    description: [
+      "Engineered an AI chatbot using Retrieval-Augmented Generative (RAG) model, leveraging TensorFlow.js, React Js, Pinecone DB, and Llama2 via LangChain, resulting in 65% improved client matching accuracy and $2M+ in project leads.",
+      "Innovated interactive client data map to visualize 500+ qualified leads with enhanced UI/UX using React Js and Python Django, boosting data-driven decision-making by 25%.",
+      "Deployed apps on AWS EC2 with S3 storage integration, reducing infrastructure costs by 15% while improving scalability and accessibility."
+    ],
     skills: [
       "React.js",
       "TensorFlow.js",
@@ -34,8 +37,12 @@ const jobPositions = [
     currentPosition: "Software Engineer Intern",
     place: "SHP Leading Design",
     previousPositions: [""],
-    description:
-      "Developed 5+ custom plugins using C# .NET, WPF UI/UX with MVVM principles for Autodesk Revit, accelerating project completion by 25%. Automated HVAC diffuser placement in Revit, reducing time from a week to a day, saving $10,000/project. Devised a script to automate statewide electrical wiring calculations, reducing manual calculation time by 80%. Integrated QA/QC checks across the architectural team, achieving 95% accuracy in detecting 100+ model errors.",
+    description: [
+      "Developed 5+ custom plugins using C# .NET, WPF UI/UX with MVVM principles for Autodesk Revit, accelerating project completion by 25%.",
+      "Automated HVAC diffuser placement in Revit, reducing time from a week to a day, saving $10,000/project.",
+      "Devised a script to automate statewide electrical wiring calculations, reducing manual calculation time by 80%.",
+      "Integrated QA/QC checks across the architectural team, achieving 95% accuracy in detecting 100+ model errors."
+    ],
     skills: [
       "C# .NET",
       "WPF",
@@ -47,12 +54,15 @@ const jobPositions = [
   },
   {
     timeline: "May 2021 — Aug 2021",
-    previousTimeline: ["Aug 2020 — Dec 2020"],
+    previousTimeline: [""],
     currentPosition: "Software Engineer Intern",
     place: "Emerson",
     previousPositions: [""],
-    description:
-      "Supported migration of 500,000+ records from Salesforce to in-house CRM 360 Insights using Agile Methodologies. Designed & Developed 15+ key features using C#.NET MVC, Entity Framework, Vue Js, Web API, and SQL Server, improving efficiency by 25%. Collaborated with EMEA stakeholders to gather 50+ requirements, optimizing CRM features for 14,000+ employees. Utilized IntelliJ, GitHub, Azure DevOps, and TeamCity for CI/CD, reducing deployment time by 15%.",
+    description: [
+      "Designed & Implemented 15+ key features for in-house CRM using C#.NET MVC, Entity Framework, Vue Js, Web API, and SQL Server, helping optimize the system improving efficiency by 25%, supporting software lifecycle, demonstrating clear test planning and user support.",
+      "Created and Maintained Comprehensive Unit Tests using NUnit, achieving 90% code coverage and reducing post-deployment issues by 20%.",
+      "Utilized IntelliJ tools for debugging and testing, GitHub for code review and version control, Azure DevOps for project management, and TeamCity for CI/CD, which streamlined the development process and reduced deployment time by 15%."
+    ],
     skills: [
       "C# .NET MVC",
       "Vue.js",
@@ -60,6 +70,29 @@ const jobPositions = [
       "Azure DevOps",
       "Agile",
       "CI/CD",
+      "NUnit Testing",
+      "CRM Development"
+    ],
+  },
+  {
+    timeline: "Aug 2020 — Dec 2020",
+    previousTimeline: [""],
+    currentPosition: "Software Engineer Intern",
+    place: "Emerson",
+    previousPositions: [""],
+    description: [
+      "Supported in the migration of 500,000+ records from Salesforce to in-house CRM 360 Insights, enhancing data accessibility and system integration by being involved throughout the entire software development lifecycle (SDLC) using Agile Methodologies for sprint planning.",
+      "Collaborated with EMEA stakeholders to gather 50+ business & technical requirements for CRM used by 14,000+ users across multiple regions.",
+      "Developed and modified 10+ existing CRM features to align with requirements using C#.NET MVC, Entity Framework, Vue Js, Web API, and SQL Server, resulting in a 30% reduction in processing time."
+    ],
+    skills: [
+      "C# .NET MVC",
+      "Vue.js",
+      "SQL Server",
+      "Azure DevOps",
+      "Agile",
+      "CI/CD",
+      "NUnit Testing",
       "CRM Development"
     ],
   }
@@ -82,8 +115,8 @@ export default function ExpCard() {
             <CardHeader className="h-full w-full p-0">
               <CardTitle className="text-sm text-slate-400 whitespace-nowrap">
                 {job.timeline}
-                <br />
-                {job.previousTimeline}
+                {/* <br />
+                {job.previousTimeline} */}
               </CardTitle>
             </CardHeader>
             <CardContent className="flex flex-col p-0">
@@ -96,7 +129,18 @@ export default function ExpCard() {
                 </p>
               ))}
               <CardDescription className="py-3 text-muted-foreground">
-                {job.description}
+              • {job.description[0]}
+                <br></br>
+              •  {job.description[1]}
+                <br></br>
+              •  {job.description[2]}
+                <br></br>
+              {job.description[3] && (
+                <>
+                  •  {job.description[3]}
+                  <br></br>
+                </>
+              )}
               </CardDescription>
               <CardFooter className="p-0 flex flex-wrap gap-2">
                 {job.skills.map((skill, index) => (
