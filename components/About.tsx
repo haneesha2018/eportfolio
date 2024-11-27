@@ -17,18 +17,18 @@ export default function About() {
       </div>
       <div className="flex flex-col gap-4">
       <p className="text-start text-muted-foreground lg:px-6">
-        Hello! I'm <BoldT>Haneesha Dushara</BoldT>, a recent Computer Science graduate with a bachelor's degree from the University of Cincinnati. With a 3.9 GPA and over 1.5 years of professional full-time internship experience, I've dedicated myself to continuous learning and academic excellence.
+        Hello! I'm <BoldT>Haneesha Dushara</BoldT>, a recent Computer Science graduate with a bachelor's degree from the University of Cincinnati. With a 3.9 GPA and over 1.5 years of professional full-time internship experience, I'm a continuous and curious learning.
       </p>
 
       <p className="text-start text-muted-foreground lg:px-6">
-        My professional journey includes impactful internships at Emerson, SHP Leading Design, and Prodigy, where I developed critical skills in software development, artificial intelligence, and data analytics. These experiences have equipped me with the technical expertise and problem-solving abilities necessary to tackle complex challenges in the field.
+        My professional journey includes internships at Emerson, SHP Leading Design, and Prodigy, where I developed critical skills in software development, artificial intelligence, and data analytics. These experiences have equipped me with the technical expertise and problem-solving abilities necessary to tackle complex challenges.
       </p>
 
       <p className="text-start text-muted-foreground lg:px-6">
-        Beyond academics, I've been actively involved in leadership roles such as Vice President of Events for the College of Engineering & Applied Science Tribunal and Sponsorship Lead for ACM@UC's hackathon. These experiences have not only enhanced my technical skills but also developed my abilities in team collaboration, strategic planning, and communication.
+        Beyond academics, I've been actively involved in leadership roles such as Vice President of Events for the College of Engineering & Applied Science Tribunal and Sponsorship Lead for ACM@UC's hackathon. These experiences have not only enhanced my technical skills but also developed my abilities in team collaboration, planning, and communication.
       </p>
       <p className="text-start text-muted-foreground lg:px-6">
-        My passion for technology is driven by a commitment to solving complex problems and creating innovative solutions that can make a tangible difference in the world of software engineering.
+        My passion for technology is driven by a commitment to solving complex problems that can make a difference in the world.
       </p>
       </div>
     </section>
