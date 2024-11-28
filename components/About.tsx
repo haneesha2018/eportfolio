@@ -17,7 +17,7 @@ export default function About() {
       </div>
       <div className="flex flex-col gap-4">
       <p className="text-start text-muted-foreground lg:px-6">
-        Hello! I'm <BoldT>Haneesha Dushara</BoldT>, a recent Computer Science graduate with a bachelor's degree from the University of Cincinnati. With a 3.9 GPA and over 1.5 years of professional full-time internship experience, I'm a continuous and curious learning.
+        Hello! I'm <BoldT>Haneesha Dushara</BoldT>, a recent Computer Science graduate with a bachelor's degree from the University of Cincinnati. With a 3.9 GPA and over 1.5 years of professional full-time internship experience, I'm a continuous and curious learner.
       </p>
 
       <p className="text-start text-muted-foreground lg:px-6">
