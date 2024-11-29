@@ -21,11 +21,11 @@ export default function About() {
       </p>
 
       <p className="text-start text-muted-foreground lg:px-6">
-        My professional journey includes internships at Emerson, SHP Leading Design, and Prodigy, where I developed critical skills in software development, artificial intelligence, and data analytics. These experiences have equipped me with the technical expertise and problem-solving abilities necessary to tackle complex challenges.
+        My professional journey includes full-time internships at Emerson, SHP Leading Design, and Prodigy, where I developed critical skills in software development, artificial intelligence, and data analytics. These experiences have equipped me with the technical expertise and problem-solving abilities necessary to tackle complex challenges.
       </p>
 
       <p className="text-start text-muted-foreground lg:px-6">
-        Beyond academics, I've been actively involved in leadership roles such as Vice President of Events for the College of Engineering & Applied Science Tribunal and Sponsorship Lead for ACM@UC's hackathon. These experiences have not only enhanced my technical skills but also developed my abilities in team collaboration, planning, and communication.
+        Beyond academics, I've been actively involved in leadership roles such as Vice President of Events for the College of Engineering & Applied Science Tribunal, Sponsorship Lead for ACM@UC's hackathon and Student Ambassador for UC International. These experiences have not only enhanced my technical skills but also developed my abilities in team collaboration, planning, and communication.
       </p>
       <p className="text-start text-muted-foreground lg:px-6">
         My passion for technology is driven by a commitment to solving complex problems that can make a difference in the world.
