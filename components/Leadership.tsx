@@ -25,16 +25,6 @@ const leadershipPositions = [
     link: "https://www.linkedin.com/posts/revolutionuc_hackathon-revolutionuc-activity-7167258201913057280-fNPL?utm_source=share&utm_medium=member_desktop"
   },
   {
-    timeline: "May 2022 — April 2024",
-    currentPosition: "Student Ambassador",
-    place: "UC International Admissions, University of Cincinnati",
-    description:
-      "Counseled over 2000 students, assisting with informed college decisions and demonstrating commitment to student success. Represented the University globally, promoting programs as a representative of the International Admissions Office.",
-    skills: ["Counseling", "Public Speaking", "Student Advocacy"],
-    imagepath: "https://haneesha2018.github.io/eportfolio/IntlAmbass.jpg",
-    link: "https://ucinternationalstudentblog.weebly.com/spotlights1.html"
-  },
-  {
     timeline: "Jan 2022 — April 2024",
     currentPosition: "Vice President of Events",
     place: "College of Engineering and Applied Sciences Tribunal, University of Cincinnati",
@@ -43,6 +33,16 @@ const leadershipPositions = [
     skills: ["Event Planning", "Leadership", "Community Engagement"],
     imagepath: "https://haneesha2018.github.io/eportfolio/CeasTribunal.png",
     link: "https://www.linkedin.com/company/ceas-tribunal/"
+  },
+  {
+    timeline: "May 2022 — April 2024",
+    currentPosition: "Student Ambassador",
+    place: "UC International Admissions, University of Cincinnati",
+    description:
+      "Counseled over 2000 students, assisting with informed college decisions and demonstrating commitment to student success. Represented the University globally, promoting programs as a representative of the International Admissions Office.",
+    skills: ["Counseling", "Public Speaking", "Student Advocacy"],
+    imagepath: "https://haneesha2018.github.io/eportfolio/IntlAmbass.jpg",
+    link: "https://ucinternationalstudentblog.weebly.com/spotlights1.html"
   },
 ];
 
