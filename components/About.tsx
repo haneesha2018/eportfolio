@@ -25,7 +25,7 @@ export default function About() {
       </p>
 
       <p className="text-start text-muted-foreground lg:px-6">
-        Beyond academics, I've been actively involved in leadership roles such as Vice President of Events for the College of Engineering & Applied Science Tribunal, Sponsorship Lead for ACM@UC's hackathon and Student Ambassador for UC International. These experiences have not only enhanced my technical skills but also developed my abilities in team collaboration, planning, and communication.
+        Beyond academics, I've been actively involved in leadership roles such as Sponsorship Lead for ACM@UC's hackathon, Student Ambassador for UC International, and Vice President of Events for the College of Engineering & Applied Science Tribunal. These experiences have not only enhanced my technical skills but also developed my abilities in team collaboration, planning, and communication.
       </p>
       <p className="text-start text-muted-foreground lg:px-6">
         My passion for technology is driven by a commitment to solving complex problems that can make a difference in the world.
