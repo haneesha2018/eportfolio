@@ -61,8 +61,6 @@ export default function Nav() {
         <p className="text-base lg:text-start text-muted-foreground">
           I empower innovation and data-driven decision-making <br></br>
           through AI and software engineering.
-          {/* I deliver actionable insights that enhance <br></br>
-          decision-making and drive results. */}
         </p>
         <div className=''>
             {/* <a href={`${basePath}/Haneesha_Dushara_Full_Time_Resume.pdf`} target="_blank" rel="noopener noreferrer"> */}
