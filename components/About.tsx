@@ -15,23 +15,32 @@ export default function About() {
           About
         </h2>
       </div>
-    <div className="flex flex-col gap-4">
-      <p className="text-start text-muted-foreground lg:px-6">
-        Hello! I'm <BoldT>Haneesha Dushara</BoldT>, a recent Computer Science graduate from the University of Cincinnati with a 3.9 GPA and nearly 2.5 years of combined professional experience — including <BoldT>8 months in a full-time Software Engineer role</BoldT> and <BoldT>1 year 8 months across 5 semesters of co-op technical internships</BoldT>. I am a continuous and curious learner passionate about leveraging technology to solve real-world problems.
-      </p>
+      <div className="flex flex-col gap-4">
+        <p className="text-start text-muted-foreground lg:px-6">
+          Hi! I’m <BoldT>Haneesha Dushara</BoldT> — a recent Computer Science graduate from the University of Cincinnati (<BoldT>3.9 GPA</BoldT>) with about <BoldT>2.5 years of combined professional experience</BoldT>. That includes <BoldT>8 months as a full-time Software Engineer</BoldT> and <BoldT>1 year 8 months</BoldT> across five co-op technical internships. I’m a curious, continuous learner who loves using technology to solve real-world problems.
+        </p>
+        <div className="text-start text-muted-foreground lg:px-6">
+          <p>
+            Right now, I’m a Software Engineer at NASPA in Business Systems Strategy, where I’ve:
+          </p>
+          <ul className="list-disc pl-6 mt-2">
+            <li>Built enterprise-scale cloud solutions on Microsoft Azure</li>
+            <li>Modernized legacy systems</li>
+            <li>Led automation projects that improved efficiency and cut costs</li>
+          </ul>
+        </div>
+        <p className="text-start text-muted-foreground lg:px-6">
+          Before NASPA, I gained hands-on experience at Emerson, SHP Leading Design, and Prodigy, working on cloud computing, full-stack development, system integration, and security.
+        </p>
 
-      <p className="text-start text-muted-foreground lg:px-6">
-        My professional journey includes my current role as a Software Engineer at NASPA in Business Systems Strategy, where I have architected enterprise-scale cloud solutions on Microsoft Azure, modernized legacy systems, and led automation workflows that significantly improved operational efficiency and reduced costs. My co-op and internships at Emerson, SHP Leading Design, and Prodigy further strengthened my skills in cloud computing, full‑stack development, system integration, and security, empowering me to tackle complex technical challenges effectively.
-      </p>
+        <p className="text-start text-muted-foreground lg:px-6">
+          Outside of coding, I’ve enjoyed leadership roles like Sponsorship Lead for ACM@UC’s hackathon, Student Ambassador for UC International, and VP of Events for my college’s engineering tribunal. These have strengthened my collaboration, planning, and communication skills — things I value just as much as technical expertise.
+        </p>
 
-      <p className="text-start text-muted-foreground lg:px-6">
-        Beyond academics and technical work, I have taken on leadership roles such as Sponsorship Lead for ACM@UC's hackathon, Student Ambassador for UC International, and Vice President of Events for the College of Engineering & Applied Science Tribunal. These experiences have honed my collaboration, planning, and communication skills, complementing my technical expertise.
-      </p>
-
-      <p className="text-start text-muted-foreground lg:px-6">
-        Fueled by a commitment to innovation, I strive to build impactful technology solutions that make a meaningful difference.
-      </p>
-    </div>
+        <p className="text-start text-muted-foreground lg:px-6">
+          I’m driven by the idea that technology can create meaningful impact, and I’m always excited to explore new tools, ideas, and projects that push what’s possible.
+        </p>
+      </div>
     </section>
   );
 }
