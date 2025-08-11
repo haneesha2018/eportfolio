@@ -11,13 +11,39 @@ import { Badge } from "@/components/ui/badge";
 
 const jobPositions = [
   {
+    timeline: "Jan 2025 — Present",
+    previousTimeline: [""],
+    currentPosition: "Software Engineer (System Specialist at Business Systems Strategy)",
+    place: "NASPA",
+    previousPositions: [""],
+    description: [
+      "Architected and deployed enterprise-scale conference registration platform on Microsoft Azure, processing $3M+ revenue across 6,000+ registrants with 99.9% uptime, reducing registration errors by 75% and eliminating 200+ hours of manual processing annually.",
+      "Engineered automated integration pipeline connecting Accelevents, Workato, and Salesforce APIs for multi-event management system serving 8+ annual conferences, achieving 95% workflow automation and saving 100+ operational hours per event cycle.",
+      "Led comprehensive legacy system modernization initiative, migrating ColdFusion-based Applicant Tracking System and Member Newsletter System to Lucee framework, enhancing security posture for 10,000+ users while implementing SendGrid API integration and Salesforce CRM automation for seamless user authentication and subscriber management.",
+      "Directed enterprise security incident response and orchestrated migration of 4 legacy production servers to secure Azure infrastructure, deploying SQL Server on Azure VMs and containerizing Lucee/Nginx applications using Azure Container Instances, implementing modern security protocols and achieving $60,000 annual cost reduction while maintaining zero-downtime deployment."
+    ],
+    skills: [
+      "Microsoft Azure",
+      "Accelevents API",
+      "Workato",
+      "Salesforce API",
+      "Lucee",
+      "SendGrid API",
+      "SQL Server",
+      "Azure VM",
+      "Azure Container Instances",
+      "Nginx",
+      "Enterprise Security",
+      "Workflow Automation"
+    ],
+  },
+  {
     timeline: "Jan 2023 — July 2023",
     previousTimeline: [""],
     currentPosition: "Software Engineer Intern",
     place: "Prodigy",
     previousPositions: [""],
     description: [
-      "Engineered an AI chatbot using Retrieval-Augmented Generative (RAG) model, leveraging TensorFlow.js, React Js, Pinecone DB, and Llama2 via LangChain, resulting in 65% improved client matching accuracy and $2M+ in project leads.",
       "Innovated interactive client data map to visualize 500+ qualified leads with enhanced UI/UX using React Js and Python Django, boosting data-driven decision-making by 25%.",
       "Deployed apps on AWS EC2 with S3 storage integration, reducing infrastructure costs by 15% while improving scalability and accessibility."
     ],
@@ -27,8 +53,7 @@ const jobPositions = [
       "LangChain",
       "Python Django",
       "AWS",
-      "UI/UX",
-      "RAG Development"
+      "UI/UX"
     ],
   },
   {
@@ -133,8 +158,12 @@ export default function ExpCard() {
                 <br></br>
               •  {job.description[1]}
                 <br></br>
-              •  {job.description[2]}
-                <br></br>
+              {job.description[2] && (
+                <>
+                  •  {job.description[2]}
+                  <br></br>
+                </>
+              )}
               {job.description[3] && (
                 <>
                   •  {job.description[3]}
