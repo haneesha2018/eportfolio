@@ -17,25 +17,37 @@ const jobPositions = [
     place: "NASPA",
     previousPositions: [""],
     description: [
-      "Architected and deployed enterprise-scale conference registration platform on Microsoft Azure, processing $3M+ revenue across 6,000+ registrants with 99.9% uptime, reducing registration errors by 75% and eliminating 200+ hours of manual processing annually.",
-      "Engineered automated integration pipeline connecting Accelevents, Workato, and Salesforce APIs for multi-event management system serving 8+ annual conferences, achieving 95% workflow automation and saving 100+ operational hours per event cycle.",
-      "Led comprehensive legacy system modernization initiative, migrating ColdFusion-based Applicant Tracking System and Member Newsletter System to Lucee framework, enhancing security posture for 10,000+ users while implementing SendGrid API integration and Salesforce CRM automation for seamless user authentication and subscriber management.",
-      "Directed enterprise security incident response and orchestrated migration of 4 legacy production servers to secure Azure infrastructure, deploying SQL Server on Azure VMs and containerizing Lucee/Nginx applications using Azure Container Instances, implementing modern security protocols and achieving $60,000 annual cost reduction while maintaining zero-downtime deployment."
+      "Developed and deployed conference registration platform using Node.js, HTML/CSS/JS on Azure Web Apps with Key Vault & backup to storage accounts, processing $3M+ in revenue across 6,000+ annual registrants while maintaining 99.9% uptime.",
+      "Built automated integration pipeline connecting Accelevents, Workato & Nimble AMS (Salesforce-based membership system) working cross-functionally with teams, automating 95% of conference workflows, reducing manual effort by 50+ hours per event across 8+ annual conferences.",
+      "Migrated legacy ColdFusion (CFM) Applicant Tracking System and Member Newsletter System to Lucee framework with HTML/CSS/JS and Cloudflare reverse proxy, improving performance and security for 10,000+ users while integrating SendGrid API & Nimble AMS for streamlined authentication and subscriber management.",
+      "Collaborated with stakeholders to optimize Salesforce SOQL queries and communicate performance improvements, achieving 80% faster response times and streamlined logical flow while cutting API calls to 0.5x original.",
+      "Transitioned 2 legacy production servers to Azure using Docker containerizing Lucee/Nginx application, GitHub Workflows CI/CD, Azure Container Registry (ACR), and Azure Container Apps in production, deploying SQL Server on VM.",
+      "Delivered $60,000 in annual cost savings through platform modernization while maintaining zero downtime during migration and implementing enhanced security measures."
     ],
     skills: [
+      "Node.js",
+      "HTML/CSS/JS",
       "Microsoft Azure",
+      "Azure Web Apps",
+      "Azure Key Vault",
+      "Azure Storage",
       "Accelevents API",
       "Workato",
-      "Salesforce API",
+      "Nimble AMS (Salesforce)",
+      "Cloudflare",
       "Lucee",
       "SendGrid API",
       "SQL Server",
       "Azure VM",
-      "Azure Container Instances",
+      "Docker",
+      "GitHub Workflows CI/CD",
+      "Azure Container Registry",
+      "Azure Container Apps",
       "Nginx",
       "Enterprise Security",
-      "Workflow Automation"
-    ],
+      "Workflow Automation",
+      "Salesforce SOQL"
+    ]
   },
   {
     timeline: "Jan 2023 — July 2023",
