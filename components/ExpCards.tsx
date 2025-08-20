@@ -17,12 +17,13 @@ const jobPositions = [
     place: "NASPA",
     previousPositions: [""],
     description: [
-      "Developed and deployed conference registration platform using Node.js, HTML/CSS/JS on Azure Web Apps with Key Vault & backup to storage accounts, processing $3M+ in revenue across 6,000+ annual registrants while maintaining 99.9% uptime.",
-      "Built automated integration pipeline connecting Accelevents, Workato & Nimble AMS (Salesforce-based membership system) working cross-functionally with teams, automating 95% of conference workflows, reducing manual effort by 50+ hours per event across 8+ annual conferences.",
-      "Migrated legacy ColdFusion (CFM) Applicant Tracking System and Member Newsletter System to Lucee framework with HTML/CSS/JS and Cloudflare reverse proxy, improving performance and security for 10,000+ users while integrating SendGrid API & Nimble AMS for streamlined authentication and subscriber management.",
-      "Collaborated with stakeholders to optimize Salesforce SOQL queries and communicate performance improvements, achieving 80% faster response times and streamlined logical flow while cutting API calls to 0.5x original.",
-      "Transitioned 2 legacy production servers to Azure using Docker containerizing Lucee/Nginx application, GitHub Workflows CI/CD, Azure Container Registry (ACR), and Azure Container Apps in production, deploying SQL Server on VM.",
-      "Delivered $60,000 in annual cost savings through platform modernization while maintaining zero downtime during migration and implementing enhanced security measures."
+      "Developed and deployed a conference registration platform using Node.js, HTML/CSS/JS on Azure Web Apps with Key Vault and storage account backups, processing $3M+ in revenue from 6,000+ annual registrants while maintaining 99.9% uptime.",
+      "Built an automated integration pipeline connecting Accelevents, Workato, Nimble AMS (Salesforce-based membership system), working cross-functionally with teams, automating 95% of conference workflows, cutting 50+ hours of manual effort per event across 8+ annual conferences.",
+      "Rebuilt the Volunteer Applicant Tracking System on the Lucee framework used by 30+ boards, regions, and divisions, streamlining the application process and enabling automated daily member data uploads for a 7× faster update cycle compared to manual weekly updates.",
+      "Modernized the Member Newsletter System by migrating to Lucee with HTML/CSS/JS, integrating SendGrid for distribution, Nimble AMS for authentication, and Cloudflare reverse proxy for security—delivering faster, more reliable communications to 14,000+ members.",
+      "Optimized Salesforce SOQL queries, delivering 5× faster response times and 50% fewer API calls through better logic and query restructuring.",
+      "Transitioned two legacy production servers to Azure, containerizing Lucee/Nginx with Docker, implementing CI/CD via GitHub Workflows, Azure Container Registry, and Azure Container Apps—improving scalability and reliability in production.",
+      "Delivered $60,000 in annual savings through platform modernization, maintaining zero downtime, and implementing enhanced security."
     ],
     skills: [
       "Node.js",
@@ -61,8 +62,6 @@ const jobPositions = [
     ],
     skills: [
       "React.js",
-      "TensorFlow.js",
-      "LangChain",
       "Python Django",
       "AWS",
       "UI/UX"
