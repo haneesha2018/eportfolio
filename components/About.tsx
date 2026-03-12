@@ -17,20 +17,10 @@ export default function About() {
       </div>
       <div className="flex flex-col gap-4">
         <p className="text-start text-muted-foreground lg:px-6">
-          Hi! I’m <BoldT>Haneesha Dushara</BoldT> — a recent Computer Science graduate from the University of Cincinnati (<BoldT>3.9 GPA</BoldT>) with about <BoldT>2.5 years of combined professional experience</BoldT>. That includes <BoldT>8 months as a full-time Software Engineer</BoldT> and <BoldT>1 year 8 months</BoldT> across five co-op technical internships. I’m a curious, continuous learner who loves using technology to solve real-world problems.
+          Hi! I’m <BoldT>Haneesha Dushara</BoldT>, a Software Engineer with a Computer Science degree from the University of Cincinnati (<BoldT>GPA 3.9</BoldT>) and about <BoldT>2.5 years of combined experience</BoldT> across full-time and internship roles. I currently work at NASPA in Business Systems Strategy, where I design and deploy cloud-native solutions on Microsoft Azure, modernize systems, and automate workflows that improve performance and reduce costs.
         </p>
-        <div className="text-start text-muted-foreground lg:px-6">
-          <p>
-            Right now, I’m a Software Engineer at NASPA in Business Systems Strategy, where I’ve:
-          </p>
-          <ul className="list-disc pl-6 mt-2">
-            <li>Built enterprise-scale cloud solutions on Microsoft Azure</li>
-            <li>Modernized legacy systems</li>
-            <li>Led automation projects that improved efficiency and cut costs</li>
-          </ul>
-        </div>
         <p className="text-start text-muted-foreground lg:px-6">
-          Before NASPA, I gained hands-on experience at Emerson, SHP Leading Design, and Prodigy, working on cloud computing, full-stack development, system integration, and security.
+          My experience spans cloud architecture, full-stack development, AI-driven automation, and system integration, with hands-on contributions to projects that support thousands of users and streamline complex organizational operations. Previously, I gained experience at Emerson, SHP Leading Design, and Prodigy, building scalable, data-driven software solutions across different industries. I’m passionate about creating technology that’s efficient, reliable, and genuinely useful.
         </p>
 
         <p className="text-start text-muted-foreground lg:px-6">

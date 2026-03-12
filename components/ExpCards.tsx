@@ -11,126 +11,79 @@ import { Badge } from "@/components/ui/badge";
 
 const jobPositions = [
   {
-    timeline: "Jan 2025 — Present",
-    previousTimeline: [""],
-    currentPosition: "Software Engineer (System Specialist at Business Systems Strategy)",
-    place: "NASPA",
-    previousPositions: [""],
+    timeline: "Sept 2025 – Present",
+    currentPosition: "Software Engineer II — NASPA (Business Systems Strategy)",
     description: [
-      "Developed and deployed a conference registration platform using Node.js, HTML/CSS/JS on Azure Web Apps with Key Vault and storage account backups, processing $3M+ in revenue from 6,000+ annual registrants while maintaining 99.9% uptime.",
-      "Built an automated integration pipeline connecting Accelevents, Workato, Nimble AMS (Salesforce-based membership system), working cross-functionally with teams, automating 95% of conference workflows, cutting 50+ hours of manual effort per event across 8+ annual conferences.",
-      "Rebuilt the Volunteer Applicant Tracking System on the Lucee framework used by 30+ boards, regions, and divisions, streamlining the application process and enabling automated daily member data uploads for a 7× faster update cycle compared to manual weekly updates.",
-      "Modernized the Member Newsletter System by migrating to Lucee with HTML/CSS/JS, integrating SendGrid for distribution, Nimble AMS for authentication, and Cloudflare reverse proxy for security—delivering faster, more reliable communications to 14,000+ members.",
-      "Optimized Salesforce SOQL queries, delivering 5× faster response times and 50% fewer API calls through better logic and query restructuring.",
-      "Transitioned two legacy production servers to Azure, containerizing Lucee/Nginx with Docker, implementing CI/CD via GitHub Workflows, Azure Container Registry, and Azure Container Apps—improving scalability and reliability in production.",
-      "Delivered $60,000 in annual savings through platform modernization, maintaining zero downtime, and implementing enhanced security."
+      "Designed and deployed cloud-native event management platform on Azure with Node.js and REST APIs, supporting 6,000+ users and $3M+ in annual transactions.",
+      "Architected integration pipelines across Salesforce, Accelevents, and Workato, automating 95% of conference workflows.",
+      "Modernized legacy systems through containerization (Docker, Nginx) and Azure Container Apps with automated GitHub CI/CD pipelines, achieving zero downtime across production deployments.",
+      "Accelerated development velocity 30% through LLM-assisted workflows (Claude, GitHub Copilot) for coding, debugging, and refactoring.",
+      "Contributed to AI governance standards for the organization, establishing responsible AI usage policies across development and operations teams.",
+      "Reduced infrastructure costs by $60K+ annually through cloud optimization and architectural improvements."
     ],
     skills: [
-      "Node.js",
-      "HTML/CSS/JS",
-      "Microsoft Azure",
-      "Azure Web Apps",
-      "Azure Key Vault",
-      "Azure Storage",
-      "Accelevents API",
-      "Workato",
-      "Nimble AMS (Salesforce)",
-      "Cloudflare",
-      "Lucee",
-      "SendGrid API",
-      "SQL Server",
-      "Azure VM",
-      "Docker",
-      "GitHub Workflows CI/CD",
-      "Azure Container Registry",
-      "Azure Container Apps",
-      "Nginx",
-      "Enterprise Security",
-      "Workflow Automation",
-      "Salesforce SOQL"
+      "Node.js", "REST API", "Microsoft Azure", "Azure Container Apps", "Docker", "Nginx", "GitHub CI/CD", "Salesforce", "Accelevents", "Workato", "LLM (Claude, Copilot)", "AI Governance", "Cloud Optimization"
     ]
   },
   {
-    timeline: "Jan 2023 — July 2023",
-    previousTimeline: [""],
-    currentPosition: "Software Engineer Intern",
-    place: "Prodigy",
-    previousPositions: [""],
+    timeline: "Jan 2025 – Aug 2025",
+    currentPosition: "Software Engineer — NASPA (Business Systems Strategy)",
     description: [
-      "Innovated interactive client data map to visualize 500+ qualified leads with enhanced UI/UX using React Js and Python Django, boosting data-driven decision-making by 25%.",
-      "Deployed apps on AWS EC2 with S3 storage integration, reducing infrastructure costs by 15% while improving scalability and accessibility."
+      "Built conference registration and volunteer management systems on Azure with Node.js and REST APIs, serving 30+ organizational divisions.",
+      "Optimized Salesforce SOQL queries and ETL pipelines, reducing API consumption by 50% and improving query response times by 5×.",
+      "Migrated legacy monolithic applications to containerized Azure infrastructure with Docker and GitHub CI/CD, reducing deployment time by 40%.",
+      "Re-architected member newsletter delivery system with SendGrid and Cloudflare, increasing email deliverability to 99.5% for 14,000+ members."
     ],
     skills: [
-      "React.js",
-      "Python Django",
-      "AWS",
-      "UI/UX"
-    ],
+      "Node.js", "REST API", "Microsoft Azure", "Salesforce SOQL", "ETL", "Docker", "GitHub CI/CD", "SendGrid", "Cloudflare"
+    ]
   },
   {
-    timeline: "Jan 2022 — May 2022",
-    previousTimeline: [""],
-    currentPosition: "Software Engineer Intern",
-    place: "SHP Leading Design",
-    previousPositions: [""],
+    timeline: "Jan 2023 – July 2023",
+    currentPosition: "Software Engineer Intern – Prodigy",
     description: [
-      "Developed 5+ custom plugins using C# .NET, WPF UI/UX with MVVM principles for Autodesk Revit, accelerating project completion by 25%.",
-      "Automated HVAC diffuser placement in Revit, reducing time from a week to a day, saving $10,000/project.",
-      "Devised a script to automate statewide electrical wiring calculations, reducing manual calculation time by 80%.",
-      "Integrated QA/QC checks across the architectural team, achieving 95% accuracy in detecting 100+ model errors."
+      "Developed a RAG-powered chatbot with LangChain, LLaMA2, and Pinecone vector database, improving client-project matching accuracy by 65%.",
+      "Built React.js frontend with TensorFlow.js integration for real-time model inference and interactive chat interface.",
+      "Deployed chatbot infrastructure on AWS (EC2, S3), reducing hosting costs by 15% while improving scalability and availability."
     ],
     skills: [
-      "C# .NET",
-      "WPF",
-      "MVVM",
-      "Automation",
-      "QA/QC",
-      "Revit Development"
-    ],
+      "LangChain", "LLaMA2", "Pinecone", "React.js", "TensorFlow.js", "AWS EC2", "AWS S3"
+    ]
   },
   {
-    timeline: "May 2021 — Aug 2021",
-    previousTimeline: [""],
-    currentPosition: "Software Engineer Intern",
-    place: "Emerson",
-    previousPositions: [""],
+    timeline: "Jan 2022 – May 2022",
+    currentPosition: "Software Engineer Intern – SHP Leading Design",
     description: [
-      "Designed & Implemented 15+ key features for in-house CRM using C#.NET MVC, Entity Framework, Vue Js, Web API, and SQL Server, helping optimize the system improving efficiency by 25%, supporting software lifecycle, demonstrating clear test planning and user support.",
-      "Created and Maintained Comprehensive Unit Tests using NUnit, achieving 90% code coverage and reducing post-deployment issues by 20%.",
-      "Utilized IntelliJ tools for debugging and testing, GitHub for code review and version control, Azure DevOps for project management, and TeamCity for CI/CD, which streamlined the development process and reduced deployment time by 15%."
+      "Developed 5+ custom Autodesk Revit plugins in C#/.NET with WPF (MVVM architecture), accelerating architectural design workflows by 25%.",
+      "Automated HVAC diffuser placement algorithm, reducing design iteration time from 5 days to 1 day and saving $10K+ per project.",
+      "Built automated QA/QC validation system detecting 100+ model errors with 95% accuracy, reducing manual review time by 60%."
     ],
     skills: [
-      "C# .NET MVC",
-      "Vue.js",
-      "SQL Server",
-      "Azure DevOps",
-      "Agile",
-      "CI/CD",
-      "NUnit Testing",
-      "CRM Development"
-    ],
+      "C#/.NET", "WPF", "MVVM", "Autodesk Revit", "Automation", "QA/QC"
+    ]
   },
   {
-    timeline: "Aug 2020 — Dec 2020",
-    previousTimeline: [""],
-    currentPosition: "Software Engineer Intern",
-    place: "Emerson",
-    previousPositions: [""],
+    timeline: "May 2021 – Aug 2021",
+    currentPosition: "Software Engineer Intern – Emerson",
     description: [
-      "Supported in the migration of 500,000+ records from Salesforce to in-house CRM 360 Insights, enhancing data accessibility and system integration by being involved throughout the entire software development lifecycle (SDLC) using Agile Methodologies for sprint planning.",
-      "Collaborated with EMEA stakeholders to gather 50+ business & technical requirements for CRM used by 14,000+ users across multiple regions.",
-      "Developed and modified 10+ existing CRM features to align with requirements using C#.NET MVC, Entity Framework, Vue Js, Web API, and SQL Server, resulting in a 30% reduction in processing time."
+      "Designed and implemented 15+ features for internal CRM platform with C# .NET MVC, Entity Framework, Vue.js, and SQL Server, improving processing efficiency by 25%.",
+      "Established automated CI/CD pipelines with GitHub, Azure DevOps, and TeamCity, reducing deployment time by 15%."
     ],
     skills: [
-      "C# .NET MVC",
-      "Vue.js",
-      "SQL Server",
-      "Azure DevOps",
-      "Agile",
-      "CI/CD",
-      "NUnit Testing",
-      "CRM Development"
+      "C# .NET MVC", "Entity Framework", "Vue.js", "SQL Server", "GitHub", "Azure DevOps", "TeamCity", "CI/CD"
+    ]
+  },
+  {
+    timeline: "Aug 2020 – Dec 2020",
+    currentPosition: "Software Engineer Intern – Emerson",
+    description: [
+      "Migrated 500K+ records from Salesforce to in-house CRM (360 Insights) with zero data loss, enabling consolidated reporting across regions.",
+      "Gathered and documented 50+ business and technical requirements from EMEA stakeholders for enterprise CRM serving 14,000+ users.",
+      "Enhanced 10+ CRM features in C# .NET with Web API and SQL Server optimization, reducing average processing time by 30%."
     ],
+    skills: [
+      "Salesforce", "CRM (360 Insights)", "C# .NET", "Web API", "SQL Server", "Requirements Gathering"
+    ]
   }
 ];
 
@@ -151,36 +104,19 @@ export default function ExpCard() {
             <CardHeader className="h-full w-full p-0">
               <CardTitle className="text-sm text-slate-400 whitespace-nowrap">
                 {job.timeline}
-                {/* <br />
-                {job.previousTimeline} */}
               </CardTitle>
             </CardHeader>
             <CardContent className="flex flex-col p-0">
               <p className="text-foreground font-bold">
-                {job.currentPosition} • {job.place}
+                {job.currentPosition}
               </p>
-              {job.previousPositions.map((position, index) => (
-                <p key={index} className="text-slate-400 text-sm font-bold">
-                  {position}
-                </p>
-              ))}
               <CardDescription className="py-3 text-muted-foreground">
-              • {job.description[0]}
-                <br></br>
-              •  {job.description[1]}
-                <br></br>
-              {job.description[2] && (
-                <>
-                  •  {job.description[2]}
-                  <br></br>
-                </>
-              )}
-              {job.description[3] && (
-                <>
-                  •  {job.description[3]}
-                  <br></br>
-                </>
-              )}
+                {job.description.map((desc, idx) => (
+                  <span key={idx}>
+                    • {desc}
+                    <br />
+                  </span>
+                ))}
               </CardDescription>
               <CardFooter className="p-0 flex flex-wrap gap-2">
                 {job.skills.map((skill, index) => (
